@@ -5,9 +5,16 @@
     <title>Ejercicio7</title>
 </head>
 <body>
-
     <script>
+        var numero = prompt("Ingrese el numero al cual le desea calcular el factorial");
 
+        var resultado = 1;
+
+        for(var i = 1; i <= numero;i++){
+            resultado = resultado * i;
+        }
+
+        document.write("El factorial de " + numero + " es: " + resultado);
     </script>
 </body>
 </html>
